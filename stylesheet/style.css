@@ -1,0 +1,43 @@
+body {
+  font-size: 14px;
+  font-family: "Helvetica", "Times New Roman", sans-serif;
+}
+
+.container-table {
+  margin: 40px 0;
+}
+
+table {
+  border-collapse: collapse;
+  max-width: 100%;
+}
+
+table tr th, table tr td {
+  border: 2px solid #339acc;
+}
+
+.pages ul {
+  list-style-type: none;
+  display: flex;
+  width: 285px;
+  margin: 40px auto;
+}
+
+.pages ul::before {
+  content: "";
+}
+
+.pages ul li {
+  margin-right: 10px;
+}
+
+.pages ul li a {
+  color: #339acc;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.pages ul li a:hover, .pages ul li a.current {
+  color: #0182f5;
+  text-decoration: underline;
+}
